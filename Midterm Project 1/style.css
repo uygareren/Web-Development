@@ -1,0 +1,155 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+}
+
+.container {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.header-container {
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-title {
+
+}
+
+.main-container{
+    display: flex;
+    flex-grow: 1;
+}
+
+.body-container {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-container{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    margin-block: 15px;
+    padding-block: 25px;
+    padding-inline: 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.center-header-container{
+    flex-grow: 4;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.center-main-container{
+    flex-grow: 7;
+    border: 1px solid pink;
+    display: flex;
+    justify-content: center;
+}
+
+.body-article .article-container{
+    margin-block: 50px;
+}
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    padding-inline: 50px;
+
+
+}
+
+
+.profile-info-card{
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-block: 25px;
+    padding-inline: 25px;
+}
+
+.image-container{
+}
+
+.info-section{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.money-section{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-block: 15px;
+    border-radius: 15px;
+}
+
+.wallet-section{
+    display: flex;
+    justify-content: center;
+}
+
+.label-container{
+    text-align: center;
+}
+
+.input-section{
+    padding-block: 25px; 
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-bottom: 50px;
+      
+}
+
+.input{
+    border: 1px solid black;
+    height: 30px;
+    margin: 20px;
+    margin-inline: 40px;
+}
+
+.footer{
+    border: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-card-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-card{
+    border: 1px solid black;
+    padding-block: 10px;
+    padding-inline: 25px;
+    margin-block: 25px;
+    border-radius: 25px;
+}
+
+.footer-title{
+    text-align: center;
+}
