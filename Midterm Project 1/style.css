@@ -15,18 +15,50 @@
     align-items: center;
 }
 
-.header-title {
+.header-left-container{
+    display: flex;
+    align-items: center;
+}
 
+.header-title-container{
+    width: 50px;
+}
+
+.header-title {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.header-logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.header-description{
+    font-style: oblique;
 }
 
 .main-container{
     display: flex;
     flex-grow: 1;
+    flex-wrap: wrap;
 }
 
 .body-container {
     border: 1px solid black;
     flex-grow: 1;
+}
+
+.item{
+    flex-direction: row;
+    display: flex;
+}
+
+.item-img{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
 }
 
 .left-container{
@@ -50,7 +82,7 @@
 }
 
 .center-header-container{
-    flex-grow: 4;
+    flex-grow: 2;
     display: flex;
     border: 1px solid black;
     justify-content: center;
@@ -61,7 +93,7 @@
 
 .center-main-container{
     flex-grow: 7;
-    border: 1px solid pink;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
 }
@@ -73,7 +105,7 @@
 .right-container{
     display: flex;
     flex-direction: column;
-    flex-grow: 2;
+    flex-grow: 1;
     padding-inline: 50px;
 
 
@@ -131,7 +163,7 @@
 }
 
 .footer{
-    border: 1px solid salmon;
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -152,4 +184,38 @@
 
 .footer-title{
     text-align: center;
+}
+
+.footer-description{
+    font-style: italic;
+}
+
+.link-title{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .header-container {
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    .main-container {
+        padding: 10px; /* Adjust padding for mobile */
+    }
+
+    .item {
+        padding-inline: 20px; /* Adjust padding for mobile */
+    }
+
+    .right-container {
+        padding-inline: 20px; /* Adjust padding for mobile */
+    }
+
+    .footer-card-container {
+        padding-inline: 20px; /* Adjust padding for mobile */
+    }
 }
